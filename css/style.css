@@ -12,8 +12,15 @@ li{
 .header li{
     font-size: 2.5vh;
 }
+.home
+{
+    width: 1vh;
+    height: 1vh;
+}
 .header
 {
+    opacity: 90%;
+    background-color: black;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -23,10 +30,9 @@ li{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     height: 10vh;
-    background-color: rgb(20, 20, 20);
-    
+
     justify-content: space-between;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.344)
+    box-shadow: 0px 0px 30px rgb(0, 0, 0)
 }
 .header img
 {
@@ -144,6 +150,10 @@ li{
 }
 .onasd2
 {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
     height: 50vh;
 }
 .partner
@@ -156,7 +166,14 @@ li{
     
 }
 .partner img { width: 100%; filter: grayscale(100%);transition: 300ms;}
-.partner img:hover { width: 100%;transform: scale(1.1); filter: grayscale(0%);}
+.partner img:hover
+{ 
+    width: 100%;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.47);
+    border-radius: 2vh;
+}
 .p1
 {
     font-size: 4vh;
@@ -229,12 +246,22 @@ li{
     padding: 5ch;
     width: 50%;
 }
-
-.oferta-prawo, .oferta-prawo2 {
+.oferta-prawo{
     background: 
     linear-gradient(rgba(29,29,29,0),
     rgba(243,243,243,0.3)), 
     url('../public/images/oferta-image.jpg');
+    width: 50%;
+    height: auto;
+    border-radius: 5vh;
+    margin: 5vh;
+    transition: 300ms;
+}
+.oferta-prawo2 {
+    background: 
+    linear-gradient(rgba(29,29,29,0),
+    rgba(243,243,243,0.3)), 
+    url('../public/images/oferta-image2.jpg');
     width: 50%;
     height: auto;
     border-radius: 5vh;
@@ -295,4 +322,72 @@ li{
 .p2 {
     font-size: 2vh;
 }
-    
+/* ----------------- KLIENCI ----------------- */   
+.kliencisec {
+    margin: 2vh;
+    padding: 10vh;
+    display: flex;
+    height: 80vh;
+    background-color: rgb(243, 243, 243);
+    gap: 5vh;
+}
+.grid-lewo
+{
+    padding: 4vh;
+    border-radius: 5vh;
+    background-color: rgb(226, 226, 226);
+    height: 77vh;
+    width: 48%;
+    transition: 300ms;
+}
+.grid-lewo:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.47);
+}
+
+.grid-prawo
+{
+    transition: 300ms;
+    padding: 4vh;
+    border-radius: 5vh;
+    float: right;
+    background-color: rgb(226, 226, 226);
+    height: 77vh;
+    width: 48%;
+}
+.grid-prawo:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 40px rgba(0,0,0,0.47);
+}
+
+.gridm
+{
+    height: 50%;
+}
+.opinia
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5vh;
+    display: flex;
+    transition: 300ms;
+    margin-top: 2ch;
+}
+.opinia:hover
+{
+    transform: scale(1.02);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.239);
+}
+.opinia img 
+{
+    transform: scale(0.9);
+    margin: 1ch;
+    border-radius: 50%;
+    width: 8vh;
+}
+.nick
+{
+    font-weight: bold;
+}
+.zg { color: rgb(255, 221, 0);font-size:2.5vh ;}.sg { color: rgb(167, 167, 167);}
