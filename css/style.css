@@ -364,7 +364,13 @@ li{
 
 .gridm
 {
-    height: 50%;
+    background-color: white;
+    border-radius: 5vh;
+    padding-top: 2.5vh;
+    padding-right: 2.5vh;
+    padding: 2vh ;
+    height: 25%;
+    margin-top: 16.7vh;
 }
 .opinia
 {
@@ -391,3 +397,106 @@ li{
     font-weight: bold;
 }
 .zg { color: rgb(255, 221, 0);font-size:2.5vh ;}.sg { color: rgb(167, 167, 167);}
+.gridmm
+{
+    width: 100%;
+    height: 50%;
+}
+.gridmm img
+{
+    width: 100%;
+    border-radius: 3vh;
+}   
+.kontaktsec {
+    margin: 2vh;
+    padding: 10vh;
+    display: flex;
+    height: 40vh;
+    background-color: rgb(243, 243, 243);
+    gap: 5vh;
+}
+.kontakt-lewo
+{
+
+    width: 60%;
+    height: 100%;
+}
+.kontakt-lewo img
+{
+    transform: scale(0.7);
+}
+.kontakt-prawo
+{
+    justify-content: center;
+    align-content: center;
+}
+.mapasec {
+    margin: 2vh;
+    padding: 4vh;
+    display: flex;
+    height: 60vh;
+    background-color: rgb(243, 243, 243);
+    gap: 5vh;
+}
+.mapa-lewo
+{
+    width: 70%;
+}
+.mapa-lewo iframe
+{
+    width: 100%;
+    height: 100%;
+}
+.mapa-prawo 
+{
+   justify-content: center;
+   align-content: center; 
+}
+.sklepsec {
+    margin: 2vh;
+    padding: 4vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 75vh;
+    background-color: rgb(243, 243, 243);
+    
+}
+.sklepsec .p1
+{
+    text-align: center;
+}
+.pasek {
+  gap: 1vh;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+.item {
+  background-color: white;
+  border-radius: 4vh;
+  height: 55vh;
+  margin: 10px;
+  filter: blur(15);
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  width: 40vh;
+  padding: 3vh;
+}
+.obraz 
+{
+    display: flex;
+    height: 60%;
+}
+.obraz img
+{
+    height: 100%; 
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
